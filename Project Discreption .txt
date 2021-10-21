@@ -25,14 +25,8 @@ Testing scores:
 -- Precession 0.73 
 -- Recall 0.73 
 
-Tools
+5- Tools
 -- Numpy and Pandas for data manipulation
 -- Scikit-learn for modeling
 -- Matplotlib and Seaborn for plotting
 
-
-
-
-
-
-  dataset to model if the patient will be having a Cardiovascular Disease or not.
