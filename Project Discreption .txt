@@ -1,0 +1,38 @@
+1- Abstract
+ The goal of this project is to use classification models to predict if a patient has a Cardiovascular Disease or not in order to help Doctors in making decisions for their patients and warn their patients in case the model predicted them as patients with Cardiovascular diseases.  I worked with data provided by Kaggle that contained patients' vital signs along with their body features. These features were cleaned and preprocessed. After that,  a feature engineering process was followed in order to build several machine learning models and to achieve promising results for this binary problem. 
+
+2- Design 
+This project from SDAIA and Kaplan "Data Science Bootcamp". The data was provided by  Svetlana Ulianova on the Kaggle website.  It represents two classes, a patient having a Cardiovascular disease and a patient not having a cardiovascular disease. Classifying patients using machine learning models would help doctors make decisions for their patients and warn them if they're in danger of having a Cardiovascular disease. 
+
+3- Data 
+The dataset contains 70,000 patients' records with 12 medical history features for each, 7 of which are Ordinal and the other features are numerical. one of the ordinal features is a result of feature engineering the height and the weight. 
+
+4- Algorithms 
+Feature Engineering : 
+using the weight and the height in the BMI equation and have the BMI number as a column. 
+deleting the weight 
+deleting the height 
+Models: 
+Logistic regression, k-nearest neighbors, and decision tree classifiers were used before settling on the logistic regression as the model with the strongest cross-validation performance. Grid search was used for the logistic regression model in order to find the best parameters. 
+Model Evaluation And Selection: 
+The entire training dataset of 64936 patient records was split into 80/20 and 70/30  train vs. holdout. And all scores that are shown below are the models' results that were confirmed. 
+The first metric that was looked at for the classification problem is the Accuracy, along with the F1-score for each classification.
+Final Logistic Regression  Model scores: 11 features 
+
+Testing scores: 
+-- Accuracy 0.72
+-- F1 0.72 macro and 
+-- Precession 0.73 
+-- Recall 0.73 
+
+Tools
+-- Numpy and Pandas for data manipulation
+-- Scikit-learn for modeling
+-- Matplotlib and Seaborn for plotting
+
+
+
+
+
+
+  dataset to model if the patient will be having a Cardiovascular Disease or not.
