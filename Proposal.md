@@ -45,6 +45,6 @@ Patients Cardiovascular Disease prediction :
 	- Decision Tree 
 	- Other models could be used to get the best results (Accurecy, F1, Precesion)
 	
-	- Minimum Viable Product:  
-- Logistic Regression predictive model that predicts the probability of a patient having a Cardiovascular disease to help Doctors in making decisions for their patients and warn their patients in case the model predicted them as haveing a Cardiovascular diseases.   
+- Minimum Viable Product:  
+	- Logistic Regression predictive model that predicts the probability of a patient having a Cardiovascular disease to help Doctors in making decisions for their patients and warn their patients in case the model predicted them as haveing a Cardiovascular diseases.   
 			
